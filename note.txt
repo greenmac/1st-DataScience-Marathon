@@ -8,4 +8,16 @@
     randf(size)	                        隨機產生指定大小的一維陣列	        [0.0, 1.0)	浮點數	        連續型均勻分布
     sample(size)	                    隨機產生指定大小的一維陣列	        [0.0, 1.0)	浮點數	        連續型均勻分布
 
+．取近似值的函式及說明如下表：
+函式	            常用語法	                    說明
+round(), around()	ndarray.round(decimals=0), 
+                    numpy.round(a, decimals=0), 
+                    numpy.around(a, decimals=0)	    在Rounding 的方法部分，與 Python 同樣採用 IEEE 754 規範，四捨、五取最近偶數、六入，
+                                                    而非我們一般講的四捨五入。round 與 around 用法及結果相同
+rint()	            numpy.rint(a)	                Round至最近的整數
+trunc()	            numpy.trunc(a)	                無條件捨去小數點
+floor()	            numpy.floor(a)	                向下取整數
+ceil()	            numpy.ceil(a)	                向上取整數
+fix()	            numpy.ceil(a)	                向0的方向取整數
+
 ．
