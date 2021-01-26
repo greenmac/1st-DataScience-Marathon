@@ -20,4 +20,13 @@ floor()	            numpy.floor(a)	                向下取整數
 ceil()	            numpy.ceil(a)	                向上取整數
 fix()	            numpy.ceil(a)	                向0的方向取整數
 
-．
+．比較：等於/不等於、大於/大於或等於、小於/小於或等於
+函式	            說明
+np.equal()	        等於
+np.not_equal()	    不等於
+np.greater()	    大於
+np.greater_equal()	大於或等於
+np.less()	        小於
+np.less_equal()	    小於或等於
+*上列的函式均可以比較兩個形狀相同的陣列，或是比較符合廣播規則的兩個陣列，若元素值相同的話就回傳 True。
+*比較時均是 element-wise 的比較。
