@@ -54,4 +54,10 @@ corrcoef() 計算 Pearson 積差相關係數。引數 rowvar 預設值為 True�
 語法如下：
 numpy.corrcoef(x, y=None, rowvar=True)
 
+．pandas # 顯示所有行, 列
+import pandas as pd
+# 顯示所有行, 列
+pd.set_option('display.max_rows', None) # 行
+pd.set_option('display.max_columns', None) # 列
+
 ．
