@@ -60,4 +60,10 @@ import pandas as pd
 pd.set_option('display.max_rows', None) # 行
 pd.set_option('display.max_columns', None) # 列
 
-．
+．fillna
+1.以0填補 .fillna(0)
+2.以該欄位所有資料的算術平均數做填補 .mean()
+3.以該欄位所有資料的中位數做填補 .median()
+4.運用參數method=‘ffill’即可填補前一列數值 .fillna(method='ffill')
+5.填補後一列數值 .fillna(method='bfill')
+6.內差法補值 .interpolate()
