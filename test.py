@@ -8,3 +8,10 @@ import numpy as np
 
 a = np.array([ [[1, 2], [3, 4]], [[1, 2], [2, 1]], [[1, 3], [3, 1]] ])
 print(a)
+
+import pandas as pd
+import seaborn as sns
+from matplotlib import pyplot as plt
+
+# 取得資料集
+df = sns.load_dataset('titanic')
