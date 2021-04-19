@@ -15,3 +15,6 @@ from matplotlib import pyplot as plt
 
 # 取得資料集
 df = sns.load_dataset('titanic')
+
+from scipy import stats
+probs = stats.hypergeom.pmf()
